@@ -1,8 +1,9 @@
 # jantarFilosofosDistribuido
-##Conceito
+
+## Conceito
 A ideia deste código em python é simular o jantar dos filosofos,porém em máquinas diferentes,sendo que,cada máquina possui um garfo e pode consultar a máquina á direita(primeiro indice "á direita" após o índice do ip do máquina no array de IPs) se ela possui um garfo para ser emprestado,um máquina também possui uma thread em que é executado um servidor de garfos,atentando á máquina á esquerda no índice do arrays de IPs caso possua um garfo,caso uma máquina consiga os dois garfos,ela come,em seguida libera o garfo emprestado do filosofo da direita no índice de IPs,e assim sucessivamente
 
-##Funcionamento
+## Funcionamento
 
 o código possui os seguintes atributos:
 idFilosofo = um inteiro correspondete ao indice + 1 do ip da máquina no ipFilosofos que será usado para identificar a máquina
