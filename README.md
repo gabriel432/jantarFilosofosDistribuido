@@ -18,5 +18,5 @@ comecou = flag usada para início do programa, deve estar como 0
 
 Para executar o algoritmo, deve executar em cada máquina o progama, e como pode ser visto no terminal (ao executar o código), deverá ser inserio o valor 2 para toda máquina que irá escutar o ínicio do programa e 1 para a máquina que irá dar a largada, após inserir 1, digitar "inicio" e iniciar o espectáculo!
 
-##Observação
+## Observação
 O python não realiza um processamento realmente paraleo entre threads, sendo um pseudo-paralelo, onde cada thread é executada sequencialmente, por causa do Global Interpreter Lock (arquitetura interna da linguagem), ao contrário dos processos, onde a execução é realmente paralela, por este motivo, como o código foi implementado com threads, caso uma thread não esteja "escutando" na porta setada (por outra thread do código estar sendo executada no momento), os pacotes enviados pela thread que fez a requsição se perderão, e a mesma não terá uma resposta, por isso, em todas as threads que fazem requisições á outras threads, foi implementado uma confirmaçao de que o pacote enviado realmente foi recebido pela thread de destino, reenviando o pacote pela thread de origem caso o mesmo não tenha sido entregue.
