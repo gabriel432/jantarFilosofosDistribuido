@@ -5,16 +5,16 @@ A ideia deste projeto é simular o jantar dos filosofos, porém em máquinas dif
 
 ## Funcionamento
 
-o código possui os seguintes atributos:
-idFilosofo = um inteiro correspondete ao indice + 1 do ip da máquina no ipFilosofos que será usado para identificar a máquina
-ipsFilosofosReal = vetor de IPs de todas as máquinas participantes
-ipsFilosofos = mesmo valor de ipsFilosofosReal, porém no índice correspondente ao ip de cada máquina, o ip deverá ser 0.0.0.0
-portaJanta = porta usada para emitir e receber mensagem de algum filosofo comendo
-portaInicio = porta usada para emitir mensagem do ínicio do programa
-situacaoFilosofo = deve começar com 0
-meuGarfo = garfo de cada filosofo,deve ser o mesmo valor de início de idFilosofo
-garfoAmigo = garfo do filosofo do índice á direita do índice de cada máquina nov etor ipsFilosofos
-comecou = flag usada para início do programa, deve estar como 0
+O código possui os seguintes atributos: \
+idFilosofo = um inteiro correspondete ao indice + 1 do ip da máquina no ipFilosofos que será usado para identificar a máquina\
+ipsFilosofosReal = vetor de IPs de todas as máquinas participantes\
+ipsFilosofos = mesmo valor de ipsFilosofosReal, porém no índice correspondente ao ip de cada máquina, o ip deverá ser 0.0.0.0\
+portaJanta = porta usada para emitir e receber mensagem de algum filosofo comendo\
+portaInicio = porta usada para emitir mensagem do ínicio do programa\
+situacaoFilosofo = deve começar com 0\
+meuGarfo = garfo de cada filosofo,deve ser o mesmo valor de início de idFilosofo\
+garfoAmigo = garfo do filosofo do índice á direita do índice de cada máquina nov etor ipsFilosofos\
+comecou = flag usada para início do programa, deve estar como 0\
 
 Para executar o algoritmo, deve executar em cada máquina o progama, e como pode ser visto no terminal (ao executar o código), deverá ser inserio o valor 2 para toda máquina que irá escutar o ínicio do programa e 1 para a máquina que irá dar a largada, após inserir 1, digitar "inicio" e iniciar o espectáculo!
 
